@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.mainBodyContainer {
+  /* border: 2px solid red; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.style-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cust-btn {
+  margin-top: 20px;
+}
+.headingContainer {
+  margin: 0 0 35px 0;
+}
+.del-btn {
+  float: right;
+}
+.all-tasks {
+  /* border: 1px solid black; */
+}
+.todoSection {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+}
+.display-task {
+  /* border: 1px solid red; */
+  margin-right: 10px;
+  font-weight: bold;
+}
+.timer {
+  /* border: 1px solid red; */
+  margin: 0 80px 0 80px;
+  padding: 20px;
+}
+.messageContainer {
+  color: rgb(179, 176, 176);
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;  
+}
